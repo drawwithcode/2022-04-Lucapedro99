@@ -13,4 +13,6 @@ function setup() {
 
 function draw() {
 	// put drawing code here
+
+	circle(20,20,20);
 }
