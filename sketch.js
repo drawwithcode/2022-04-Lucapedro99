@@ -16,10 +16,10 @@ if(typeof(DeviceOrientationEvent) !== 'undefind' && typeof(DeviceOrientationEven
 		// show permission button only first time 
 		let button = createButton("click to allow access to sensors");
 		button = createButton("click to allow to sensors");
-	button.style("font-size","24px");
-	button.center();
-	button.mousePressed( requestAccess );
-	throw error;
+	    button.style("font-size","24px");
+	    button.center();
+	    button.mousePressed( requestAccess );
+	  throw error;
 	})
 	.then(() => {
 		permissionGranted = true;
@@ -59,6 +59,6 @@ function draw() {
 	cx = constrain(cx, 0 , width);
 	cy = constrain(cy, 0 , height);
 
-	rect(cx,cy, 20, 20);
+	rect (cx,cy, 20, 20);
 
 }
