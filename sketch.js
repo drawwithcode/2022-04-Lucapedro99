@@ -52,8 +52,8 @@ function draw() {
 	//background(255);
 
 	// rotation X / Y 
-    const dx = constrain(rotationX, -3, 3)
-	const dy = constrain(rotationY, -3, 3)
+    const dx = constrain(rotationY, -3, 3)
+	const dy = constrain(rotationX, -3, 3)
 	cx += dx*2;
 	cy += dy*2;
 	cx = constrain(cx, 0 , width);
