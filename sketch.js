@@ -60,5 +60,6 @@ function draw() {
 	cy = constrain(cy, 0 , height);
 
 	rect (cx,cy, 20, 20);
+	fill ( 0,255,0); 
 
 }
